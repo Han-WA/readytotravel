@@ -247,8 +247,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             _buildDatePicker(),
+                            Container(
+                              width: 45,
+                              child: Image.asset(
+                                "assets/images/bdcake.png",
+                                fit: BoxFit.contain,
+                              ),
+                            ),
                             _buildGender(),
                           ],
                         ),
