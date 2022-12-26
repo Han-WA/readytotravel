@@ -299,8 +299,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               print(_phone);
                             },
                             style: ElevatedButton.styleFrom(
-                              primary: Colors.transparent,
-                              onSurface: Colors.transparent,
+                              backgroundColor: Colors.transparent,
+                              disabledForegroundColor: Colors.transparent,
                               minimumSize: const Size(320, 50),
                             ),
                             child: const Center(

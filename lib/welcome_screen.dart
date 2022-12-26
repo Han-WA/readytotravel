@@ -92,7 +92,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       children: [
                         Text(
                           "Log in with email address",
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
                           ),
